@@ -9,7 +9,7 @@ An interactive Shiny application designed to visualize and analyze historical Un
 ## Features
 
 | Feature | Detail |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Input – City selector** | Dropdown to pick any of the 68 cities in the dataset |
 | **Input – Year range slider** | Filter the analysis window from 1975 to 2015 |
 | **Input – Crime metric** | Choose between violent crime, homicides, rape, robbery, or aggravated assault (all per 100k residents) |
@@ -87,6 +87,8 @@ crime_dashboard/
 │   └── processed/
 │       └── ucr_crime_1975_2015_processed.csv
 ├── Rprofile
+├── img/
+│   └── app.gif
 └── README.md                          # This file
 ```
 
