@@ -6,7 +6,7 @@ library(readr)
 library(scales)
 
 # ── Data ──────────────────────────────────────────────────────────────────────
-crime_raw <- read_csv("ucr_crime_1975_2015_processed.csv", show_col_types = FALSE)
+crime_raw <- read_csv("data/processed/ucr_crime_1975_2015_processed.csv", show_col_types = FALSE)
 
 # Clean city names (strip trailing state abbreviations for display)
 crime <- crime_raw |>
