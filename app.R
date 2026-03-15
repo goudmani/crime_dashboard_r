@@ -94,19 +94,19 @@ ui <- page_navbar(
 
         # Value boxes
         value_box(
-          title    = "Average Rate - Per 100k",
+          title    = "Average Rate - Per 100K",
           value    = textOutput("vb_avg"),
           showcase = bsicons::bs_icon("activity"),
           theme    = "primary"
         ),
         value_box(
-          title    = "Peak Rate - Per 100k",
+          title    = "Peak Rate - Per 100K",
           value    = textOutput("vb_peak"),
           showcase = bsicons::bs_icon("graph-up-arrow"),
           theme    = "danger"
         ),
         value_box(
-          title    = "Latest Rate - Per 100k",
+          title    = "Latest Rate - Per 100K",
           value    = textOutput("vb_latest"),
           showcase = bsicons::bs_icon("calendar-check"),
           theme    = "success"

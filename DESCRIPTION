@@ -1,0 +1,16 @@
+Package: CrimeDashboard
+Title: U.S. Crime Dashboard (1975-2015)
+Version: 1.0.0
+Author: Your Name
+Description: Interactive Shiny dashboard exploring FBI UCR crime data.
+Depends: R (>= 4.2.0)
+Imports:
+    shiny,
+    bslib,
+    bsicons,
+    dplyr,
+    ggplot2,
+    readr,
+    scales,
+    DT,
+    stringr
